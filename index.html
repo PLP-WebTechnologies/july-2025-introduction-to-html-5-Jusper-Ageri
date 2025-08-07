@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="It's interesting to create accessible and SEO-friendly HTML5 websites with semantic tags.">
+        <meta name="keywords" content="HTML5, Accessibility, SEO, Web Development, Search Engine">  
+    </head>
+
+<body>
+  <header role="banner">
+    <h1>Week 1 of Web Development</h1>
+    <nav role="navigation" aria-label="Main navigation">
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contacts">Contacts</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main role="main">
+    <section id="about" aria-labelledby="about-heading">
+      <h2 id="about-heading">About This Page</h2>
+      <p>This an amazing HTML5 Page</p>
+    </section>
+
+    <section id="Projects" aria-labelledby="projects-heading">
+      <h2 id="projects-heading">Our Projects</h2>
+
+      <article aria-labelledby="project1-title">
+        <h3 id="project1">HTML5 Semantic Tags</h3>
+        <p>Semantic tags are important since they give meaning to an HTML page.</p>
+      </article>
+
+      <article aria-labelledby="project2-title">
+        <h3 id="project2">Accessibility and SEO</h3>
+        <p>Accessibility directly impacts SEO through improved user experience, better crawlability and indexing, an in meeting legal requirements as well other indirect SEO beneficts such as improved brand reputation.</p>
+      </article>
+    </section>
+
+    <section id="contact" aria-labelledby="contact-heading">
+      <h2 id="contact-heading">Contact</h2>
+      <p>In case of any inquiry, please do not hestate to contact us <a href="mailto:ombokajusper@gmail.com">Send us an email</a>.</p>
+    </section>
+  </main>
+
+  <footer role="contentinfo">
+    <p>&copy; Designed by Jusper Ageri. All rights reserved.</p>
+  </footer>
+</body>
+</html>
